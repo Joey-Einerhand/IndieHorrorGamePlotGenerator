@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indie Horror Game Plot Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Random plot generator for your indie horror game.">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="icon.png">
+    
+</head>
+<body>
+    <h1>Indie horror game plot generator</h1>
+    <h6>Best selling indie horror games don't need originality, why would you?</h6>
+        
+    <!-- use &nbsp; before wordcontainers to add a space between a sentence and a randomised word.
+    Using a 'normal' space doesn't work. E.g: ' '-->
+    <span>The game takes place in a&nbsp;</span><span class="wordContainer" id="locationAdjective"></span>&nbsp;<span class="wordContainer" id="location">&nbsp;</span></br>
+
+    <span>where&nbsp;</span><span class="wordContainer" id="antagonist"></span>&nbsp;<span class="wordContainer" id="antagonistVerb">&nbsp;</span>&nbsp;<span class="wordContainer" id="victim"></span><span>&nbsp;to&nbsp;</span>
+    <br><span class="wordContainer" id="motivation"></span><br>
+    <br>
+
+    <span>You want to&nbsp;</span><span class="wordContainer" id="goal"></span>&nbsp;<span class="wordContainer" id="possessive"></span>&nbsp;<span class="wordContainer" id="possession"></span><br>
+
+    <span>but in order to do that must&nbsp;</span><span class="wordContainer" id="obstacle"></span>&nbsp;<span class="wordContainer" id="number"></span>&nbsp;<span class="wordContainer" id="obstacleObject"></span><br>
+
+    <span>and&nbsp;</span><span class="wordContainer" id="action"></span>&nbsp;<span class="wordContainer" id="antagonistPossessive"></span>&nbsp;<span class="wordContainer" id="antagonistPossession"></span><br>
+
+    <br>
+    <span>In the end,&nbsp;</span><span class="wordContainer" id="thing"></span>&nbsp;turns out to be&nbsp;<span class="wordContainer" id="twist"></span><span>&nbsp;after all!</span>
+    <br><br>
+    <button id="randomizeButton">Randomize</button>&nbsp;&nbsp;<button id="shuffle">Resume shuffle</button>
+
+    <h6>Thanks to <a href="https://perfectmotherfuckingwebsite.com/">the "perfectmotherfuckingwebsite"</a>, <a href="https://github.com/marexandre/jquery.textroll/tree/master">Jquery.textroll (which I butchered)</a>, <a href="https://chat.openai.com">chatGPT 4</a>, 
+    <br><a href="https://copilot.microsoft.com/">Co-pilot,</a> and my mom.
+    <br>Check out <a href="https://twitter.com/JoeyEiner">my twitter</a>, I make games!</h6>
+    <script src="script.js"></script>
+</body>
